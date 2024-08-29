@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: burlywood;
+            margin: 0;
+        }
+
+        header{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgba(88, 88, 88, 0.719);
+            padding: 3px;
+            box-shadow: 4px 2px 3px 1px rgba(63, 63, 63, 0.329);
+            font-size: 11px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: rgba(1, 94, 170, 0.822);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover{
+            color: rgb(252, 43, 43);
+            text-decoration: underline;
+        }
+        
+        main{
+            background-color: rgb(162, 169, 175);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+            box-shadow: 1px 1px 5px 2px rgba(37, 37, 37, 0.39);
+        }
+
+        article{
+            background-color: aliceblue;
+            padding: 5px;
+
+        }
+
+        article > aside{
+            background-color: rgb(119, 119, 119) ;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+            <a href="#">link4</a>
+            <a href="#">link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Tecnologias</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sit expedita ut impedit officiis quam eius aut deleniti sed culpa nisi fugit cumque placeat nobis sunt ad totam, eum ab quos hic eos odit. Debitis reprehenderit totam ad nobis tenetur, similique hic alias inventore adipisci. Nam, expedita.</p>
+                <aside>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido pelo Curso em video</p>
+    </footer>
+    <div class="bola">
+        <h5>bola</h5>
+    </div>
+</body>
+</html>

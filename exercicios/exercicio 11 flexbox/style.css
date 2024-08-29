@@ -1,0 +1,29 @@
+body{
+    background-color: gainsboro;
+}
+
+.container{
+    display: flex;
+    gap:10px;
+    /*height: 500px;*/
+    /*flex-flow: column wrap;*/
+    /* justify-content: center;*/
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    background-color: #6d28d9;
+
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: #ef4444;
+    
+}
+.item-3{
+    /*flex-grow: 1;*/ /*Aumenta o item em relação ai espaco livre que o conteiner tem*/
+    /*flex-shrink: 2;*/ /*Reduz o item em relaçao ao tamanho dos outros itens */
+    flex-basis: 400px;
+}
+.item-6{
+    flex-grow: 2;
+}

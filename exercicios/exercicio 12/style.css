@@ -1,0 +1,20 @@
+body{
+    background-color: darkgray;
+}
+.item{
+    width: calc(47% - 5px);
+    height: 176px;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    gap: 10px;
+    margin-top: 400px;
+    flex-wrap: wrap;
+    width: 540px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
